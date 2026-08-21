@@ -64,10 +64,9 @@ errors even when alpha metadata passes.
 ## First-version Tuanzi and Hutao case
 
 The [case record](../examples/native-transparent-imagegen-tuanzi-hutao.md) used a watermarked
-[first-version character action sheet](../assets/examples/native-transparent-imagegen/tuanzi-hutao-first-version-character-sheet.png)
-supplied directly by Fini Yang as the identity and medium reference. The sheet is publicly shown
-in this case by explicit permission, remains rights-reserved, and is not part of the Apache-2.0
-license. Generated originals are not distributed with the repository.
+first-version character action sheet supplied directly by Fini Yang as a local identity and
+medium reference. The character sheet and generated originals are not part of the Apache code
+license; the public package retains only auditable hashes, results, and acceptance boundaries.
 
 Of three native generations, one returned RGBA and two returned RGB checkerboards. The RGBA
 file passed the technical alpha gate but contained a broad low-alpha atmospheric haze, so its
