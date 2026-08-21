@@ -156,6 +156,14 @@ APPROVED_ASSETS = {
         643725,
         (1000, 400),
     ),
+    Path(
+        "assets/examples/native-transparent-imagegen/"
+        "tuanzi-hutao-first-version-character-sheet.png"
+    ): (
+        "fa6d089525ee28f628d7fb787575fd6964f0f620bfa24a1bb6aaeb703c94fc5c",
+        2415697,
+        (1086, 1448),
+    ),
 }
 SECRET_PATTERNS = (
     re.compile(r"-----BEGIN [A-Z ]*PRIVATE KEY-----"),
@@ -308,7 +316,7 @@ def check_tree_hygiene() -> None:
             fail(f"unexpected non-regular filesystem entry: {relative}")
         if any(part.lower() in BANNED_MEDIA_PATH_PARTS for part in relative.parts):
             fail(f"banned source-media path in release: {relative}")
-        if path.stat().st_size > 1_048_576:
+        if path.stat().st_size > 1_048_576 and relative not in APPROVED_ASSETS:
             fail(f"file exceeds 1 MiB: {relative}")
 
         if relative in APPROVED_ASSETS:

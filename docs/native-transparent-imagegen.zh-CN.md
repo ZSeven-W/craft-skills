@@ -63,8 +63,9 @@ python3 \
 ## 团子与胡桃第一版案例
 
 [案例记录](../examples/native-transparent-imagegen-tuanzi-hutao.md)使用 Fini Yang 直接提供、
-有水印的第一版角色动作页作为本地身份与画材参考。原角色图与生成原图不进入 Apache
-代码许可；公开包只保留可审计的测试记录、哈希和结果边界。
+有水印的[第一版角色动作页](../assets/examples/native-transparent-imagegen/tuanzi-hutao-first-version-character-sheet.png)
+作为身份与画材参考。该水印动作页经权利人明确许可在本案例中公开展示，仍保留全部
+角色与画面权利，不进入 Apache-2.0 许可；生成原图不随仓库分发。
 
 三次原生生成中，一次返回 RGBA，另外两次返回 RGB 棋盘格。RGBA 文件通过技术 Alpha
 检查，但存在宽范围低 Alpha 氛围晕染，因此记录为“技术通过、英雄案例视觉未通过”。

@@ -31,7 +31,7 @@ Craft Skills 把可迁移的专业方法提炼成聚焦的工作流，并为每�
 - 元数据通过后，仍要在明暗背景下检查毛发、玻璃、烟雾和半透明晕染。
 
 [团子与胡桃第一版毛发案例](examples/native-transparent-imagegen-tuanzi-hutao.md)
-使用权利人直接提供的角色动作页作为本地身份参考。三次原生生成中，一次返回 RGBA，
+使用权利人直接提供并许可公开展示的角色动作页作为身份参考。三次原生生成中，一次返回 RGBA，
 两次返回画着棋盘格的 RGB；唯一 RGBA 又因宽范围低 Alpha 晕染没有通过英雄案例视觉门。
 因此公开结论不是“某句 Prompt 包成功”，而是：**能验，才算真的能用。**
 
@@ -42,7 +42,7 @@ Craft Skills 把可迁移的专业方法提炼成聚焦的工作流，并为每�
 
 [![原创 Handoff 语义共形概念家族](assets/examples/handoff/handoff-concept-sheet.png)](docs/logo-semantic-fusion.zh-CN.md)
 
-[![原创固定角色日记漫画不规则分镜案例](assets/examples/recurring-character-diary-comic/recurring-character-diary-comic-cover.png)](docs/recurring-character-diary-comic.zh-CN.md)
+[![团子与胡桃第一版性格动作页](assets/examples/native-transparent-imagegen/tuanzi-hutao-first-version-character-sheet.png)](docs/native-transparent-imagegen.zh-CN.md)
 
 “实验版”表示这套工作流具备结构化测试和原创案例，不代表它已经达到生产就绪、
 完成商标法律核查或获得专业人士批准。

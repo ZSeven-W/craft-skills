@@ -33,8 +33,8 @@ the delivered file actually contains model-native alpha:
   metadata gate passes.
 
 The [first-version Tuanzi and Hutao fur case](examples/native-transparent-imagegen-tuanzi-hutao.md)
-used a character action sheet supplied directly by the rights holder as a held-out local identity
-reference. One of three native generations returned RGBA; two returned RGB files containing drawn
+used a character action sheet supplied directly by the rights holder and explicitly permitted for
+public display as the identity reference. One of three native generations returned RGBA; two returned RGB files containing drawn
 checkerboards. The RGBA attempt still failed the hero-case visual gate because of broad low-alpha
 haze. The public claim is therefore not “this prompt always works,” but: **if it cannot be verified,
 it is not ready to use.**
@@ -46,7 +46,7 @@ Validate the untouched original one asset at a time; report failure instead of r
 
 [![Original Handoff semantic-fusion concept families](assets/examples/handoff/handoff-concept-sheet.png)](docs/logo-semantic-fusion.md)
 
-[![Original recurring-character diary-comic example with an irregular manga layout](assets/examples/recurring-character-diary-comic/recurring-character-diary-comic-cover.png)](docs/recurring-character-diary-comic.md)
+[![First-version Tuanzi and Hutao character action sheet](assets/examples/native-transparent-imagegen/tuanzi-hutao-first-version-character-sheet.png)](docs/native-transparent-imagegen.md)
 
 “Experimental” means the workflow has structured tests and original examples;
 it does not imply production readiness, trademark clearance, or professional
